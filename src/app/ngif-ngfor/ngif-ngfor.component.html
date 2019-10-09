@@ -1,0 +1,18 @@
+
+<!-- Exemplo de print com um if: só mostra se for maior que 5 -->
+<!-- <input type="text" (input)= "numero = $event.target.value"/>
+
+<h1 *ngIf="numero > 5">Esse será exibido</h1>
+ -->
+
+<!-- Exemplo de for -->
+
+
+<input type="text" (input)= "numero = $event.target.value"/>
+
+
+<div *ngFor="let n of arrayNumeros">
+    
+<h1>{{numero}}</h1>
+    <h1 *ngIf="n !== numero">{{n}}</h1>
+</div>
